@@ -1,0 +1,301 @@
+1- Asagidakilerden hangisi Walkthrough ve Technical review için ortak özelliktir? 
+A) Use of checklists (optional demiyordu) 
+B) Scribe is mandatory (katip zorunludur) dogru 
+C) Review meeting is typically led by the author (Review meetin Author tarafindan yapilir) 
+D) Individual preparation before the review meeting is required(bireysel ön hazirlik gerekli) 
+
+
+ 
+
+2- Monitör ve kontrol için hangi metrics(ölçümlerin) kullanilacagi hangi test aktivitesinde belirlenir? 
+(Selecting metrics for test monitöring and control) 
+A) Test Planning B) Test Monitoring and Control 
+B) Test Analysis C) Test Design 
+
+
+ 
+
+ 
+
+3- Test Aktiviteleri ve her aktivitede üretilen workproductlar ile alakali bir soru vardi. Dogru ifadeyi 
+soruyordu ama bu soru çok sasirtmacaydi. Ayni sikka kesin olan dogru ifade koymus fakat arkasinda 
+yanlis bir ifade var ondan dikkatli okumak lazim. 
+
+
+Dogru Cevap: Test Case ler Test Design(test dizayn) da Test Conditionslar(Test kosullari) 
+kullanilarak olusturulur. 
+
+ 
+
+4- Asagidakilerden hangisi Experience-based Test Techniques türü degildir? 
+A) Decision Testing 
+B) Error Guessing 
+C) Exploratory Testing 
+D) Checklist-based Testing 
+
+
+ 
+
+5- Asagidakilerden Hangisi ölçüm tabanli(The metrics-based technique) tahmine en iyi örnektir 
+A) planning poker (bu yanlis cevap çünkü The expert-based technique(uzman tabanli) ya örnek) 
+B) burndown charts (dogru cevap) (konu:Test Estimation Techniques 5.2.6) 
+6- Statement coverage ile hangi yol izlenir/ hangisi tamamlanir gibi bir soru 
+
+
+vardi. 
+
+ a.Path 
+
+ b. Edge 
+
+ c.Nodes 
+
+ 
+
+7- Asagidakilerden hangisi Static Test ile bulunamaz? 
+
+
+ 
+
+A) low cohesion (düsük uyum) 
+B) undefined values 
+C) contradictions(çeliskiler) 
+D) Low Decisoin coverage… 
+8- Soru özetle su sekildeydi: Otomasyon yaptiginiz regression testinde testin bir zaman sonra hata 
+bulmadigini tespit ediyorsunuz. Bu hangi test prensibi ile alakalidir? 
+
+
+NOT: Ben direkt pesticide paradox sikkini isaretledim ama sinavdan çiktiktan sonra regression 
+testlerinde bunun faydasi olabilecegi gibi bir ifade oldugu aklima geldi ve acaba bir trick mi var diye 
+düsündüm emin degilim. (1.3 Seven Testing Principles) 
+
+ 
+
+9- Asagidaki ifadelerden hangisi, V modeli (Sirali Gelistirme Modeli) için dogrudur? 
+
+
+ Dogru cevap: Each test level has test objectives specific to that level 
+
+ 
+
+ 
+
+ 
+
+
+10- Asagidakilerden hangisi Tester in görevlerinden biridir? (Konu: Tasks of a Test Manager and Tester 
+5.1.2) (Siklarda üç tane manager görevi vardi 1 tane tester görevi) 
+
+
+ 
+
+Dogru cevap: Review and contribute to test plans(Test planlarini inceler ve katkida bulunur) 
+
+ 
+
+11- Formal reviewlerde bulunan hatalari kimin düzeltmesi beklenir? 
+
+
+ Cevap: Author 
+
+12- Bir soruda age tanimlaniyor bu age için valid kisimlar ve invalid kisimlar 
+
+
+veriliyor: 18<Age<45 ve 45<= Age 65< seklinde. Yüzde yüz coverage için 
+
+kaç test yapmak gerekiyor deniliyor. Cevap siklari 3 – 6 – 9 -12 gibi 
+
+ 
+
+ 
+
+13- Tester ve developer arasindaki fark: 
+
+
+ Hedef odakli ayrinti (ben bunu isaretledim) 
+
+ 
+
+14- Asagidaki Test stratejilerinden birinin tanimini vermisti hangisine ait oldugunu sormustu.Sorusunu tam 
+hatirlayamadim 
+A) Analytical 
+B) Model-Based 
+C) Methodical 
+D) Directed (Galiba disardan birinin yonlendirmesi gibi bir aciklama vardi. Ben bunu isaretledim ) 
+E) 
+
+
+ 
+
+16.Error,defect ve failure ile ilgili tanimlar verilerek hangisinin dogru oldugu soruluyor. (1.2.4) 
+
+Error: Developer 
+
+Defect: Tester 
+
+Failure: Son Kullanici 
+
+ 
+
+ 
+
+15- Root Causes(Kök neden) ile alakali bir soru vardi. Siklarda örnek olaylar vermis ve hangisi Root 
+Causes e bir örnektir diye sormus. Konu:Root Causes 
+
+
+ 
+
+16- Yine Test Types larla alakali bir soru vardi. Cevap White-Box olacakti. Cevapta Code,structure v.s 
+oldugu için basitti. 
+
+
+ 
+
+17- Bir soruda risk için 4 örnek olay vermislerdi. Siklarda hangisinin proje riski hangisinin ürün riski 
+oldugunu soruyordu. 
+
+
+Misal: A-B proje riski C-D ürün riski gibi 
+
+(Konu: Risk and Testing 5.5) 
+
+18- Bellek sizintisi hangi test ile tesbit edilir. 
+
+
+Dynamic anlysis veya test. Memory leak 
+
+19- Decision coverage: IF ELSE ile ilgili siklar vardi. Bu soru icin asagidaki kisim bilinse yeterli sanirim. 
+
+
+4.3.3 When 100% decision coverage is achieved, it executes all decision outcomes, which 
+includes testing the true outcome and also the false outcome, even when there is no explicit 
+false statement (e.g., in the case of an IF statement without an else in the code). Statement 
+coverage helps to find defects in code that was not exercised by other tests. Decision 
+coverage helps to find defects in code where other tests have not taken both true and false 
+outcomes. 
+
+ 
+
+
+ 
+
+20- Burda neden white box test teknigi kullanilmisdir gibi bir soru vardi. 
+
+
+ (Statement coverage ile ilgili secenegi isaretledim) 
+
+Test plan: Selecting metrics for test monitoring and control 
+
+21- Tester ne yapar? 
+
+
+ test planlarini inceler 
+
+23. Traceability (izlenebilirlik) nedir? (SÖZLÜK) 
+
+ 
+
+Traceability : The degree to which a relationship can be established between two or more work products. 
+
+Izlenebilirlik: Iki veya daha fazla is ürünü arasinda bir iliskinin kurulma derecesi. 
+
+24. Asagidakilerden hangisi Static Test ile bulunamaz? 
+
+ 
+
+E) low cohesion (düsük uyum) 
+F) undefined value (tanimlanmamis deger) 
+G) contradictions (çeliskiler) 
+H) Low Decision coverage (düsük karar kapsami) 
+
+
+ 
+
+Statik Test ile bulunan yaygin hatalar sunlardir: 
+
+. Gereksinim hatalari: tutarsizliklar, belirsizliler, celiskiler, cikarmalar, yanlisliklar, fazlaliklar 
+. Tasarim Hatalari: Verimsiz algoritmalar veya veritabani yapilari, yüksek baglasim, düsük 
+uyum 
+. Kodlama Hatalari: (deger atanmamis degiskenler, tanimlanmis fakat hic kullanilmamis 
+desiskenler, ulasilamayan kod, tekrarlanan kod) 
+. Standartlardan sapmalar: kodlama standartlarina bagli kalmama 
+. Hatali arayüz gereksinimleri (cagiran sistem ile cagrilan sistem tarafindan kullnilan ölcüm 
+birimlerinin farkli olmasi) 
+. Güvenlik aciklari: arabellek asimlarina karsi duyarlilik 
+
+
+ 
+
+25. Asagidakilerden hangisi ölçüm tabanli (The metrics-based technique) tahmine en iyi örnektir?(5.2.6) 
+
+ 
+
+A) planning poker (bu yanlis cevap çünkü The expert-based technique (uzman tabanli) ya örnek) 
+B) burndown charts (dogru cevap) (konu:Test Estimation Techniques 5.2.6) 
+
+
+ 
+
+26. Memory leak (Bellek sizintisi) hangi test ile tesbit edilir. 
+
+Cevap: dynamic analysis tool / dinamik analiz araci 
+
+27. Impact analysis is not true.. secenekler vardi 
+
+Cvp: potential side effects li bir secenek vardi 
+
+28. – Static Testing icinde degildir 
+
+Cvp:High coupling 
+
+29. Create detailed test execution schedule ( 
+
+ Tester görevi nedir diyordu cevap olarak bunu verdim 
+
+
+30. Typical test object nedir diyordu ? 
+
+Cvp:saglikli karar alinmasini saglamak stakeholderslar icin 
+
+31. Statement coverage ile bulunulur diyordu 
+
+cevap olarak high cycolomatic dedim 
+
+32. Statement coverage at least one with executive statement ?? 
+
+ check edilmeli 
+
+33. V Model ne zaman exdecute ediliyor diye soru vardi sanirim 
+
+cevap parallel with requirement specification olacak 
+
+34. Defect ve failure tanimi vardi cevap B yd 
+
+i( defect failure olmasina sebep olur ) 
+
+ 
+
+35.Scribe soruldu 
+
+--her bir gözden geçirme faaliyeti sirasinda bulunan bulgulari bir araya getirir ve siraya koyar 
+
+• Gözden geçirme toplantisinda belirlenen yeni potansiyel hatalari, açik noktalari ve kararlari kaydeder 
+
+ 
+
+35.oncelikl sirasina gore bir tablu vardi siklardan hangisi dogrudur 
+
+- TC4-TC1-TC3-Tc5 
+
+ 
+
+Verification : Döküman üzerinde yapilan testte (Static Testte), hazirliklar düzgün yapilmis mi yapilmamis 
+
+mi, bunun dogrulanmasi islevine denir. 
+
+Validation : kodu çalistirdiktan sonra (Dinamik Testte) ortaya çikan sonuçta beklenen netice aliniyor mu, 
+
+alinmiyor mu, bunun dogrulanma 
+WiFi Mousesi islevine denir) 
+
+
